@@ -9,7 +9,7 @@ class BookController {
 
   private final BookService bookService;
 
-  BookController(BookService bookService) {
+  BookController(final BookService bookService) {
     this.bookService = bookService;
   }
 
